@@ -1,1 +1,1 @@
-web: python3 swiper/server.py -p
+worker: python3 swiper/server.py -p
