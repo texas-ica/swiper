@@ -3,4 +3,4 @@ venv/
 __pycache__/
 swiper/config.py
 *.pyc
-*.txt
+data/*.txt
