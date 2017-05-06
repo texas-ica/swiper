@@ -1,0 +1,12 @@
+Minorie Vaidya,President,Junior,Accounting
+Jay Patel,Membership Director,Sophomore,Business
+Aditya Tyagi,Service Director,Sophomore,Electrical Engineering
+KM,Graphic Design Director,Sophomore,Public Health
+Marwa Gujarathi,Jhalak Funding Director,Sophomore,Business
+Nikhita Pendekanti,Jhalak Funding Director,Sophomore,Accounting
+Adhitya Ganesh,Jhalak Logistics Director,Junior,Chemical Engineering
+Sanjuktha Pendyala,Financial Director,Sophomore,Marketing
+Shazia Gupta,Administrative Director,Sophomore,Biology
+Rishabh Dhar,Social Director,Senior,Computer Science
+Ayushi Sharma,Membership Director,Junior,Computer Science
+Shrey Desai,Technology Director,Sophomore,Computer Science
