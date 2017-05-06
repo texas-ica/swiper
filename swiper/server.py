@@ -4,7 +4,7 @@ import argparse
 
 from slackclient import SlackClient
 from imgurpython import ImgurClient
-from swiper.config import ProductionConfig, TestingConfig
+from swiper.settings import ProductionConfig, TestingConfig
 from swiper.command import Help, Announcement, Poll, Roast, \
     Compliment, Meme
 from swiper.parse import Message, Parser
