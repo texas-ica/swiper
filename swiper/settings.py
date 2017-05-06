@@ -6,14 +6,14 @@ class Config:
     SKIP_FIRST = True
     WEBSOCKET_DELAY = 1
     COMMANDS = ['/help', '/announce', '/poll']
-    IMGUR_CLIENT_ID = '2e3219e30b7d439'
-    IMGUR_CLIENT_SECRET = '00e38fa4888d39362b02a1c4b6349a1ea624a3d9'
+    IMGUR_CLIENT_ID = os.getenv('IMGUR_CLIENT_ID')
+    IMGUR_CLIENT_SECRET = os.getenv('IMGUR_CLIENT_SECRET')
     PARENT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 class ProductionConfig(Config):
     BOT_ID = 'U4VUB4TSA'
-    API_KEY = 'xoxb-165963163894-Fi1D3Gegl5WorvxxYk77Mnd9'
+    API_KEY = os.getenv('SLACK_PRODUCTION_API_KEY')
     USERS = {
         'adhitya_ganesh': 'U4BLBJJCD',
         'adi49770': 'U4Q0PS676',
@@ -51,7 +51,7 @@ class ProductionConfig(Config):
 
 class TestingConfig(Config):
     BOT_ID = 'U4RRU4GBH'
-    API_KEY = 'xoxb-164283383056-WzuziW4JRkDLTH2nLu7qmVzv'
+    API_KEY = os.getenv('SLACK_TESTING_API_KEY')
     USERS = {
         'shreydesai': 'U4QEWD465',
         'niksrd': 'U4R6JTPJQ',
