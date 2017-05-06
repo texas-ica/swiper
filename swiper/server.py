@@ -67,10 +67,10 @@ if client.rtm_connect():
         output = parse_stream_message(client.rtm_read())
         if output:
             # write output to log file
-            log_file = os.path.join(config.PARENT_DIR, 'data', 'logs.txt')
-            f = open(log_file, 'a')
-            f.write(str(output['content']) + '\n')
-            f.close()
+            # log_file = os.path.join(config.PARENT_DIR, 'data', 'logs.txt')
+            # f = open(log_file, 'a')
+            # f.write(str(output['content']) + '\n')
+            # f.close()
 
             if not config.SKIP_FIRST:
                 # parse stream message
